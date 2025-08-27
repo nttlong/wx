@@ -91,7 +91,7 @@ Luu y: phai su dung ky tu @ de dai dien cho <package>/<struct name>/<method>
 Vi du: tag uri @/{FileName} thi co nghia la truy cap example/media/my-video-file.mp4 de co duoc file
 Neu dat {FileName}/@ ->my-video-file.mp4/example/media
 */
-func (m *Media) File(ctx struct {
+func (m *Media) File(ctx *struct {
 	wx.Handler `route:"method:get;uri:@/{FileName}"` //<-- tai sao la @/{FileName}?
 	//
 	//											^
@@ -117,7 +117,7 @@ Body theo tam so data
 Luu y: Neu bat Swagger len cac tham so se hien thi day du
 */
 func (m *Media) DoShareFile( //<-- day la 1 vi du Dang ky 1 media
-	ctx AuthHandler, //<-- cach 2 (gian tiep),  neu bat swagger len cho nay se co hinh O khoa
+	ctx *AuthHandler, //<-- cach 2 (gian tiep),  neu bat swagger len cho nay se co hinh O khoa
 	data struct { //<-- body
 		FilesShare []string `json:"files_share"`
 		ShareTo    string   `json:"share_to"`
