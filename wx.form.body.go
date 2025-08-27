@@ -3,7 +3,8 @@ package wx
 import (
 	"reflect"
 	"strings"
-	"wx/handlers"
+
+	"github.com/nttlong/wx/handlers"
 )
 
 type Form[T any] struct {

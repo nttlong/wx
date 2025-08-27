@@ -4,7 +4,8 @@ import (
 	_ "embed"
 	"encoding/json"
 	"net/http"
-	swaggers3 "wx/swagger3"
+
+	swaggers3 "github.com/nttlong/wx/swagger3"
 	//httpSwagger "github.com/swaggo/http-swagger"
 )
 

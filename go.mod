@@ -1,4 +1,4 @@
-module wx
+module github.com/nttlong/wx
 
 go 1.25.0
 

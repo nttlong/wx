@@ -3,8 +3,10 @@ package wx
 import (
 	"reflect"
 	"strings"
-	httpServer "wx/HtttpServer"
-	"wx/handlers"
+
+	"github.com/nttlong/wx/handlers"
+
+	httpServer "github.com/nttlong/wx/HtttpServer"
 )
 
 func InspectMethod[T any]() ([]handlers.HandlerInfo, error) {

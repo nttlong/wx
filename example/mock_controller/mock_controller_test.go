@@ -2,10 +2,10 @@ package mockcontroller
 
 import (
 	"testing"
-	"wx"
+	"github.com/nttlong/wx"
 
-	"wx/handlers"
-	_ "wx/handlers"
+	"github.com/nttlong/wx/handlers"
+	_ "github.com/nttlong/wx/handlers"
 
 	"github.com/stretchr/testify/assert"
 )

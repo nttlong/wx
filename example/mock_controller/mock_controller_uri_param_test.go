@@ -3,7 +3,7 @@ package mockcontroller
 import (
 	"net/http"
 	"testing"
-	"wx"
+	"github.com/nttlong/wx"
 
 	"github.com/stretchr/testify/assert"
 )

@@ -6,7 +6,7 @@ import (
 	"mime/multipart"
 	"os"
 	"path/filepath"
-	"wx"
+	"github.com/nttlong/wx"
 
 	"github.com/google/uuid"
 )

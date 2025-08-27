@@ -7,7 +7,8 @@ import (
 	"net/url"
 	"reflect"
 	"sync"
-	wxErrors "wx/errors"
+
+	wxErrors "github.com/nttlong/wx/errors"
 )
 
 // MockResponseWriter implements http.ResponseWriter

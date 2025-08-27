@@ -5,8 +5,8 @@ import (
 	"mime/multipart"
 	"net/http"
 	"testing"
-	"wx"
-	"wx/handlers"
+	"github.com/nttlong/wx"
+	"github.com/nttlong/wx/handlers"
 
 	"github.com/stretchr/testify/assert"
 )

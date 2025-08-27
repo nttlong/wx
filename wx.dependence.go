@@ -5,8 +5,9 @@ import (
 	"reflect"
 	"strings"
 	"sync"
-	httpServer "wx/HtttpServer"
-	"wx/handlers"
+
+	httpServer "github.com/nttlong/wx/HtttpServer"
+	"github.com/nttlong/wx/handlers"
 )
 
 type Depend[TInstance any] struct {

@@ -3,7 +3,8 @@ package handlers
 import (
 	"net/http"
 	"reflect"
-	wxErrors "wx/errors"
+
+	wxErrors "github.com/nttlong/wx/errors"
 )
 
 func (reqExec *RequestExecutor) DoJsonPost(handlerInfo HandlerInfo, r *http.Request, w http.ResponseWriter) (any, error) {

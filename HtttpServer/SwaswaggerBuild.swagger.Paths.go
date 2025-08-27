@@ -3,8 +3,8 @@ package htttpserver
 import (
 	"reflect"
 	"strings"
-	"wx/internal"
-	swaggers3 "wx/swagger3"
+	"github.com/nttlong/wx/internal"
+	swaggers3 "github.com/nttlong/wx/swagger3"
 )
 
 func (sb *SwaggerBuild) swagger3GetPaths() *SwaggerBuild {

@@ -1,6 +1,6 @@
 package media
 
-import "wx"
+import "github.com/nttlong/wx"
 
 func (media *Media) Ping(ctx *wx.Handler) (string, error) {
 	return "Hello World", nil

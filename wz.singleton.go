@@ -2,7 +2,8 @@ package wx
 
 import (
 	"reflect"
-	"wx/internal"
+
+	"github.com/nttlong/wx/internal"
 )
 
 type Global[TInstance any] struct {

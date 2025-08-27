@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"reflect"
 	"strings"
-	wxErr "wx/errors"
-	"wx/internal"
+	wxErr "github.com/nttlong/wx/errors"
+	"github.com/nttlong/wx/internal"
 )
 
 func (reqExec *RequestExecutor) GetParamFieldOfHandlerContext(typ reflect.Type, fieldName string) (reflect.StructField, bool) {

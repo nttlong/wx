@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"reflect"
 	"testing"
-	"wx"
-	"wx/example/exampleControllers/controllers/media"
+	"github.com/nttlong/wx"
+	"github.com/nttlong/wx/example/exampleControllers/controllers/media"
 
 	"github.com/stretchr/testify/assert"
 )

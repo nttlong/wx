@@ -3,7 +3,8 @@ package handlers
 import (
 	"regexp"
 	"strings"
-	"wx/internal"
+
+	"github.com/nttlong/wx/internal"
 )
 
 func (h *helperType) convertUrlToRegex(urlPattern string) string {

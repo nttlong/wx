@@ -1,6 +1,6 @@
 package controllers
 
-import "wx"
+import "github.com/nttlong/wx"
 
 type Controller1 struct {
 }

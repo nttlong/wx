@@ -1,6 +1,6 @@
 package htttpserver
 
-import swaggers3 "wx/swagger3"
+import swaggers3 "github.com/nttlong/wx/swagger3"
 
 func (sb *SwaggerBuild) applySecurity(handler WebHandler, op *swaggers3.Operation) {
 	if handler.ApiInfo.IndexOfAuthClaimsArg == -1 {

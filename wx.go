@@ -5,9 +5,10 @@ import (
 	"reflect"
 	"strings"
 	"sync"
-	httpServer "wx/HtttpServer"
-	handler "wx/handlers"
-	"wx/internal"
+	httpServer "github.com/nttlong/wx/HtttpServer"
+	handler "github.com/nttlong/wx/handlers"
+
+	"github.com/nttlong/wx/internal"
 )
 
 type AuthClaims struct {
@@ -162,5 +163,3 @@ func GetUriOfHandler[T any](methodName string) (string, error) {
 
 var Helper = handler.Helper
 var HandlerList = httpServer.HandlerList
-
-

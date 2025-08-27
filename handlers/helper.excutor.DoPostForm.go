@@ -6,8 +6,9 @@ import (
 	"net/http"
 	"reflect"
 	"strings"
-	wxErrors "wx/errors"
-	"wx/internal"
+
+	wxErrors "github.com/nttlong/wx/errors"
+	"github.com/nttlong/wx/internal"
 )
 
 func (reqExec *RequestExecutor) GetFieldByName(typ reflect.Type, fieldName string) *reflect.StructField {

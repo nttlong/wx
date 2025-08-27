@@ -2,7 +2,7 @@ package htttpserver
 
 import (
 	"reflect"
-	"wx/handlers"
+	"github.com/nttlong/wx/handlers"
 )
 
 // import (

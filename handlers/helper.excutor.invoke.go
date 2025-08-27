@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net/http"
 	"strings"
-	wxErr "wx/errors"
+	wxErr "github.com/nttlong/wx/errors"
 )
 
 func (reqExec *RequestExecutor) Invoke(info HandlerInfo, r *http.Request, w http.ResponseWriter) (any, error) {

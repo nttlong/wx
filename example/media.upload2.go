@@ -3,7 +3,8 @@ package example
 import (
 	"fmt"
 	"mime/multipart"
-	"wx"
+
+	"github.com/nttlong/wx"
 )
 
 type FileUtils struct {

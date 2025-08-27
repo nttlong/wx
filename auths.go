@@ -6,7 +6,8 @@ import (
 	"reflect"
 	"strings"
 	"sync"
-	"wx/handlers"
+
+	"github.com/nttlong/wx/handlers"
 	//_ "wx/handlers"
 )
 

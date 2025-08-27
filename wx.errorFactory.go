@@ -1,7 +1,7 @@
 package wx
 
 import (
-	"wx/errors"
+	"github.com/nttlong/wx/errors"
 )
 
 type errorFactoty struct {

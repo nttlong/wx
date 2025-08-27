@@ -6,7 +6,7 @@ import (
 	"regexp"
 	"strings"
 	"sync"
-	"wx/internal"
+	"github.com/nttlong/wx/internal"
 )
 
 func (h *helperType) FindControllerName(reiverType reflect.Type) string {

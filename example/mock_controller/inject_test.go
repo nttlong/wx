@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"net/http"
 	"testing"
-	"wx"
-	"wx/libs"
-	_ "wx/libs"
+	"github.com/nttlong/wx"
+	"github.com/nttlong/wx/libs"
+	_ "github.com/nttlong/wx/libs"
 
 	"github.com/stretchr/testify/assert"
 )

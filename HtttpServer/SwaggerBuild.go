@@ -1,7 +1,7 @@
 package htttpserver
 
 import (
-	swaggers "wx/swagger3"
+	swaggers "github.com/nttlong/wx/swagger3"
 )
 
 type SwaggerBuild struct {

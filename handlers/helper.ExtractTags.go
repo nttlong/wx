@@ -3,7 +3,7 @@ package handlers
 import (
 	"fmt"
 	"reflect"
-	"wx/internal"
+	"github.com/nttlong/wx/internal"
 )
 
 func (h *helperType) ExtractTags(typ reflect.Type, fieldIndex []int) []string {

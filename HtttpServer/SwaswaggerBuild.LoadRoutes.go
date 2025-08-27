@@ -1,7 +1,7 @@
 package htttpserver
 
 import (
-	"wx/handlers"
+	"github.com/nttlong/wx/handlers"
 )
 
 func (sb *SwaggerBuild) LoadFromRoutes() *SwaggerBuild {

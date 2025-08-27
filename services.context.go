@@ -5,7 +5,8 @@ import (
 	"net/http"
 	"reflect"
 	"sync"
-	"wx/handlers"
+
+	"github.com/nttlong/wx/handlers"
 )
 
 type Service struct {

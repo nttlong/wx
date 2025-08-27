@@ -2,7 +2,7 @@ package handlers
 
 import (
 	"strings"
-	"wx/internal"
+	"github.com/nttlong/wx/internal"
 )
 
 /*

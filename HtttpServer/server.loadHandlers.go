@@ -3,7 +3,8 @@ package htttpserver
 import (
 	"fmt"
 	"net/http"
-	"wx/handlers"
+
+	"github.com/nttlong/wx/handlers"
 )
 
 var mapRoutes map[string]WebHandler = map[string]WebHandler{}

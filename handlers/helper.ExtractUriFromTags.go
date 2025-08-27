@@ -2,7 +2,8 @@ package handlers
 
 import (
 	"strings"
-	"wx/internal"
+
+	"github.com/nttlong/wx/internal"
 )
 
 func (h *helperType) ExtractUriFromTags(tags []string) string {

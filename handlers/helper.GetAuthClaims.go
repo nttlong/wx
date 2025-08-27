@@ -3,7 +3,7 @@ package handlers
 import (
 	"net/http"
 	"reflect"
-	"wx/internal"
+	"github.com/nttlong/wx/internal"
 )
 
 func (h *helperType) skipTypeWhenGetAuthClaims_delete(fieldType reflect.Type) bool {

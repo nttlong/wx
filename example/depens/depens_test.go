@@ -3,7 +3,8 @@ package depens
 import (
 	"reflect"
 	"testing"
-	"wx"
+
+	"github.com/nttlong/wx"
 
 	"github.com/stretchr/testify/assert"
 )
